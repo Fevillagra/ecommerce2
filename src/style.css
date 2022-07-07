@@ -1,0 +1,248 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../src/assets/background.jpg');
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.card {
+    border: 1px solid rgb(190, 46, 46);
+    text-align: center;
+    width: 450px;
+    border-radius: 15px;
+    background-color: #000000;
+    margin: 1rem;
+    box-shadow: 5px 2px #ffffff, 10px 4px #50da00,-5px -2px  #269bd1, -10px -4px  #9b26d1;
+    font-size: 2rem;
+    color: #ffffff;
+    text-shadow: 2px 1px #e4da4f, -2px -1px #269bd1;
+    align-items: center;
+    text-align: center;
+}
+
+.card-img {
+    width: 80%;
+    border-radius: 20px;
+    border: 4px solid #269bd1;
+    border-style: dotted;
+}
+
+.NavBar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.NavBar a {
+    margin: 1rem;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.NavBar a:visited {
+    color:aliceblue;
+}
+
+.NavBar a:hover {
+    color: red;
+}
+
+.loading {
+    font-size: 3rem;
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+    text-shadow: 5px 2px #000000, 10px 4px #50da00,-5px -2px  #269bd1, -10px -4px  #9b26d1;
+}
+
+.item-detail {
+    display: flex;
+    justify-content: center;
+}
+
+.divcontainer {
+    border: 1px solid red;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 1rem;
+    color: aliceblue;
+    text-shadow: -2px -1px  #808080;
+    align-items: center;
+    text-align: center;
+    box-shadow: 5px 2px #ffffff, 10px 4px #50da00,-5px -2px  #269bd1, -10px -4px  #9b26d1;
+}
+
+.item-dail__div {
+    width: 450px;
+    margin: 10px;
+}
+
+.item-detail__img {
+    width: 100%;
+}
+
+.item-detail__container {
+    margin-left: 1rem;
+}
+.icon {
+    font-size: 2rem;
+    margin: 1rem;
+    font-weight: bolder;
+    color:aliceblue;
+}   
+.icon:hover {
+    color: red;
+}
+.ache3 {
+    font-size: 4rem;
+    color: aliceblue;
+    text-shadow: 5px 2px #000000, 10px 4px #50da00,-5px -2px  #269bd1, -10px -4px  #9b26d1;
+    letter-spacing: -5px;
+}
+.linkeado {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-link {
+    background-color: #50da00;
+    color: black;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    padding: .7rem .2rem .7rem;
+    box-shadow: 2px 1px #e4da4f, -2px -1px #269bd1;
+    font-weight: bolder;
+}
+
+.btn-link:hover {
+    background:#9b26d1;
+    color: white;
+}
+
+.btn-link:active {
+    background:#B71C1C;
+    color: black;
+}
+
+.cart {
+    background: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.cart p{
+    margin: 1rem 1rem 0 .3rem;
+}
+
+.cart i {
+    margin: 1.2rem 0 0 1rem;
+}
+
+/* footer */
+
+.footer {
+    padding: 3rem 2rem;
+    background-color: black;
+    color: #FAFAFA;
+    margin-top: 6rem;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 3rem;
+    border-bottom: 1px solid #FAFAFA;
+}
+
+/* Primera columna */
+.footer__content--main h3 {
+    font-size: 1.5rem;
+}
+
+.footer__content--main h3 {
+    font-size: 1.5rem;
+}
+
+/* Columna 2,3,4*/
+.footer__content--divlist h3 {
+    font-size: 1.2rem;
+    margin: 0 0 1rem;
+}
+
+.footer__content--divlist ul {
+    list-style: none;
+}
+
+.footer__content--divlist li {
+    margin: 0 0 0.2rem;
+}
+
+.footer__content--divlist a {
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+.footer__content--divlist a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #CD6155;
+}
+
+/* Div redes */
+
+.footer__media {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.footer__media--div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #FAFAFA;
+    border-radius: 50%;
+    margin: 0 .2rem;
+}
+
+.footer__media--div:hover {
+    border: 2px solid #B71C1C;
+}
+
+.footer__media--div:hover > a i {
+    color: #B71C1C;
+}
+
+
+.footer__media a {
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+.footer__media i {
+    text-decoration: none;
+    color: #FAFAFA;
+    font-size: 2rem;
+}
+
+/* Div copyright */
+.footer__copy {
+    text-align: center;
+}
