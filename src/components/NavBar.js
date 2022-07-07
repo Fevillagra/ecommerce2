@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 export const NavBar = () => {
   const categories = [
     { id: "asfadd", address:'/', text: 'Nuestros Productos' },
-    { id: "123asf", address:'/category/A', text: 'Zapatillas2022' },
-    { id: "sgs3q3", address:'/category/B', text: 'Zapatillas2021' },
-    { id: "gkl98s", address:'/category/C', text: 'Zapatillas2020' }
+    { id: "123asf", address:'/category/A', text: 'AirProMax' },
+    { id: "sgs3q3", address:'/category/B', text: 'Street Wear' },
+    { id: "gkl98s", address:'/category/C', text: 'City Style' }
   ];
 
   return (
