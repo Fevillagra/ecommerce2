@@ -1,0 +1,13 @@
+.itemCart {
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+.itemCart div{
+    background-color: white;
+    width: 30%;
+    height: 100px;
+    text-shadow: 1px 1px #269bd1;
+    font-size: 30px;
+}

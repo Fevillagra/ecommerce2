@@ -1,9 +1,11 @@
+import { Link } from 'react-router-dom'
+
 export const Footer = () => {
     return(
         <footer className="footer" id="f">
             <div className="footer__content">
                 <div className="footer__content--main">
-                    <h3>Flama ©</h3>
+                    <h3><Link to="/">Flama ©</Link></h3>
                     <p>Indumentaria deportiva.</p>
                 </div>
                 <div className="footer__content--divlist">
